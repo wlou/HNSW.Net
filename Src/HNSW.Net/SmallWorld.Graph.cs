@@ -65,7 +65,7 @@ namespace HNSW.Net
             /// Article: Section 4. Algorithm 1.
             /// </summary>
             /// <param name="items">The items to insert.</param>
-            /// <param name="generator">The random number generator to use in <see cref="RandomLevel"/></param>
+            /// <param name="generator">The random number generator to use in <see cref="RandomLevel"/>.</param>
             public void Create(IList<TItem> items, Random generator)
             {
                 if (!items?.Any() ?? false)

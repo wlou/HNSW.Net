@@ -124,7 +124,7 @@ namespace HNSW.Net
             /// Simulations show that setting Mmax0 to M(this corresponds to kNN graphs on each layer if the neighbors
             /// selection heuristic is not used) leads to a very strong performance penalty at high recall.
             /// Simulations also suggest that 2∙M is a good choice for Mmax0;
-            /// setting the parameter higher leads to performance degradation and excessive memory usage."
+            /// setting the parameter higher leads to performance degradation and excessive memory usage".
             /// </remarks>
             /// <param name="baseM">Base M parameter of the algorithm.</param>
             /// <param name="level">The level of the layer.</param>

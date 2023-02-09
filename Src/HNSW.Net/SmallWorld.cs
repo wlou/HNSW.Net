@@ -13,8 +13,7 @@ namespace HNSW.Net
     using System.Runtime.Serialization.Formatters.Binary;
 
     /// <summary>
-    /// The Hierarchical Navigable Small World Graphs.
-    /// https://arxiv.org/abs/1603.09320
+    /// <see href="https://arxiv.org/abs/1603.09320">Hierarchical Navigable Small World Graphs</see>.
     /// </summary>
     /// <typeparam name="TItem">The type of items to connect into small world.</typeparam>
     /// <typeparam name="TDistance">The type of distance between items (expect any numeric type: float, double, decimal, int, ...).</typeparam>
@@ -55,7 +54,7 @@ namespace HNSW.Net
             /// Marker for the Algorithm 4 (SELECT-NEIGHBORS-HEURISTIC) from the article.
             /// Implemented in <see cref="SmallWorld{TItem, TDistance}.NodeAlg4"/>
             /// </summary>
-            SelectHeuristic
+            SelectHeuristic,
         }
 
         /// <summary>
@@ -86,7 +85,7 @@ namespace HNSW.Net
                 {
                     Id = n.Id,
                     Item = n.Item,
-                    Distance = destination.TravelingCosts.From(n)
+                    Distance = destination.TravelingCosts.From(n),
                 }).ToList();
         }
 
@@ -207,7 +206,7 @@ namespace HNSW.Net
         public class KNNSearchResult
         {
             /// <summary>
-            /// Gets or sets the id of the item = rank of the item in source collection
+            /// Gets or sets the id of the item = rank of the item in source collection.
             /// </summary>
             public int Id { get; set; }
 
