@@ -13,7 +13,7 @@ namespace HNSW.Net.Tests
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     /// <summary>
-    /// Tests for <see cref="SmallWorld{TItem, TDistance}"/>
+    /// Tests for <see cref="SmallWorld{TItem, TDistance}"/>.
     /// </summary>
     [TestClass]
     public class SmallWorldTests
@@ -35,7 +35,7 @@ namespace HNSW.Net.Tests
         }
 
         /// <summary>
-        /// Basic test for knn search
+        /// Basic test for knn search.
         /// </summary>
         [TestMethod]
         public void KNNSearchTest()

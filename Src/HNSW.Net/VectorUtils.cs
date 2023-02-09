@@ -44,7 +44,7 @@ namespace HNSW.Net
         }
 
         /// <summary>
-        /// SIMD optimized version of <see cref="Magnitude(IList{float})"/>
+        /// SIMD optimized version of <see cref="Magnitude(IList{float})"/>.
         /// </summary>
         /// <param name="vector">The vector to calculate magnitude for.</param>
         /// <returns>The magnitude.</returns>
@@ -74,7 +74,7 @@ namespace HNSW.Net
         }
 
         /// <summary>
-        /// SIMD optimized version of <see cref="Normalize(IList{float})"/>
+        /// SIMD optimized version of <see cref="Normalize(IList{float})"/>.
         /// </summary>
         /// <param name="vector">The vector to normalize.</param>
         public static void NormalizeSIMD(float[] vector)

@@ -9,7 +9,7 @@ namespace HNSW.Net.Tests
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     /// <summary>
-    /// Tests for <see cref="BinaryHeap{T}"/>
+    /// Tests for <see cref="BinaryHeap{T}"/>.
     /// </summary>
     [TestClass]
     public class BinaryHeapTests
@@ -43,7 +43,7 @@ namespace HNSW.Net.Tests
         }
 
         /// <summary>
-        /// Tests <see cref="BinaryHeap{T}.Push(T)"/> and <see cref="BinaryHeap{T}.Pop()"/>
+        /// Tests <see cref="BinaryHeap{T}.Push(T)"/> and <see cref="BinaryHeap{T}.Pop()"/>.
         /// </summary>
         [TestMethod]
         public void PushPopTest()
